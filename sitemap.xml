@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://geektao.cc/2014/11/27/my-first-blog/</loc>
+    <lastmod>2014-11-27T03:05:13.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://geektao.cc/2014/11/25/hello-world/</loc>
     <lastmod>2014-11-25T09:01:03.000Z</lastmod>
   </url>
