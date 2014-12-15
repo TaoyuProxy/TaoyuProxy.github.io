@@ -2,28 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://geektao.cc/404.html</loc>
+    <lastmod>2014-12-15T11:40:52.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://geektao.cc/Photos/me.html</loc>
     <lastmod>2014-12-02T06:03:24.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://geektao.cc/2014/12/02/MyBlog/</loc>
-    <lastmod>2014-12-02T05:23:20.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://geektao.cc/2014/12/02/MyPhoto/</loc>
-    <lastmod>2014-12-02T05:08:25.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://geektao.cc/Photos/index.html</loc>
     <lastmod>2014-12-02T04:29:23.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://geektao.cc/2014/11/27/my-first-blog/</loc>
-    <lastmod>2014-11-27T03:06:19.000Z</lastmod>
   </url>
   
 </urlset>
