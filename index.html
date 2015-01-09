@@ -221,6 +221,7 @@
 <h5 id="Hexo_是一个由Node-js驱动的,简单、快速、强大的Blog框架。可以快速的生成静态网页托管在GitHub、BAE等平台上。对Markdown有很好的支持，并支持从Wordpress、Octopress迁移。">Hexo 是一个由Node.js驱动的,简单、快速、强大的Blog框架。可以快速的生成静态网页托管在GitHub、BAE等平台上。对Markdown有很好的支持，并支持从Wordpress、Octopress迁移。</h5>
 <hr>
 <h4 id="二、如何快速搭建hexo环境？">二、如何快速搭建hexo环境？</h4>
+<hr>
 <p>1.<strong> 安装环境</strong></p>
 <ul>
 <li>下载Git 环境（<a href="https://mac.github.com/" target="_blank" rel="external">将生成的博客deploy或fork到你的github上</a>)</li>
@@ -250,7 +251,9 @@
 </ul>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> themes/yilia</div><div class="line">git pull</div></pre></td></tr></table></figure>
 
+<hr>
 <h4 id="三、怎么在hexo中新建文档？">三、怎么在hexo中新建文档？</h4>
+<hr>
 <ul>
 <li><strong> 写文章 </strong><br>执行new命令，生成指定名称的文章至 hexo\source_posts\postName.md 。<br><code>hexo new [layout] &quot;postName&quot; #新建文章</code></li>
 <li><strong> 配置 </strong><br>其中layout是可选参数，默认值为post。有哪些layout呢，请到 scaffolds 目录下查看，这些文件名称就是layout名称。当然你可以添加自己的layout，方法就是添加一个文件即可，同时你也可以编辑现有的layout，比如post的layout默认是 hexo\scaffolds\post.md</li>
@@ -272,7 +275,9 @@
 </ul>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">以上是摘要</div><div class="line"><span class="comment">&lt;!--more--&gt;</span></div><div class="line">以下是余下全文</div><div class="line">\---</div></pre></td></tr></table></figure>
 
+<hr>
 <h4 id="四、如何发布更新文章？">四、如何发布更新文章？</h4>
+<hr>
 <ul>
 <li>$ hexo new [layout] <title> #建立新文章，默认在_posts下，layout=”draft”时发布的是草稿</title></li>
 <li>$ hexo publish <filename> #将_drafts下的文件放到_posts下，也就是发布草稿</filename></li>
