@@ -4,7 +4,7 @@
   <subtitle><![CDATA[keep calm and carry on]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://geektao.cc/"/>
-  <updated>2015-01-09T03:19:42.771Z</updated>
+  <updated>2015-01-09T03:23:11.481Z</updated>
   <id>http://geektao.cc/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://geektao.cc/2015/01/07/%E5%88%9D%E5%AD%A6Hexo/"/>
     <id>http://geektao.cc/2015/01/07/初学Hexo/</id>
     <published>2015-01-07T10:35:51.000Z</published>
-    <updated>2015-01-09T03:19:21.000Z</updated>
+    <updated>2015-01-09T03:21:26.000Z</updated>
     <content type="html"><![CDATA[<h4 id="导语">导语</h4>
 <blockquote>
 <h5 id="&ensp;&ensp;去年年末一个偶然的机会接触到Hexo，刚刚着手学习的时候一头雾水无从下手。由于一种好奇心的驱使和Hexo简洁优雅的页面吸引着我，于是在“简书”里搜索相关的教程，经过一段时间的摸索后终于搭建起属于自己的Hexo博客。但由于学习的时候参考众多其他大牛的博客，没有形成一个完整的知识体系导致知识点比较分散。今天是2015年的第一个工作周，趁这个很有纪念意义的一周将自己学习hexo的经验记录下来和大家一起分享，也便于自己日后的查阅和知识点的巩固。">&ensp;&ensp;去年年末一个偶然的机会接触到Hexo，刚刚着手学习的时候一头雾水无从下手。由于一种好奇心的驱使和Hexo简洁优雅的页面吸引着我，于是在“简书”里搜索相关的教程，经过一段时间的摸索后终于搭建起属于自己的Hexo博客。但由于学习的时候参考众多其他大牛的博客，没有形成一个完整的知识体系导致知识点比较分散。今天是2015年的第一个工作周，趁这个很有纪念意义的一周将自己学习hexo的经验记录下来和大家一起分享，也便于自己日后的查阅和知识点的巩固。</h5>
@@ -86,8 +86,8 @@
 <h4 id="四、如何发布更新文章？">四、如何发布更新文章？</h4>
 <hr>
 <ul>
-<li>$ hexo new [layout] <title> #建立新文章，默认在_posts下，layout=”draft”时发布的是草稿 </title></li>
-<li>$ hexo publish <filename> #将_drafts下的文件放到_posts下，也就是发布草稿</filename></li>
+<li>$ hexo new [layout] &lt; title  &gt; #建立新文章，默认在_posts下，layout=”draft”时发布的是草稿 </li>
+<li>$ hexo publish &lt; filename &gt; #将_drafts下的文件放到_posts下，也就是发布草稿</li>
 <li>$ hexo generate #生成静态网页</li>
 <li>$ hexo server #启动预览服务器，开启-d选项时可以预览草稿</li>
 <li>$ hexo deploy #发布到远程服务器，开启—generate选项可以在deploy前自动generate </li>
