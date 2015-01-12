@@ -21,7 +21,15 @@ var Tips = (function(){
 })();
 
 var Main = (function(){
-
+	
+	var _hmt = _hmt || [];
+	(function() {
+	var hm = document.createElement("script");
+	hm.src = "//hm.baidu.com/hm.js?cd65ed95e6214d6de8e7916895b128d4";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(hm, s);
+	})();
+	
 	var resetTags = function(){
 		var tags = $(".tagcloud a");
 		tags.css({"font-size": "12px"});

@@ -261,29 +261,14 @@
     	</div>
       	<div class="footer-right">
       	<font id="counter">
-		本站共到访 <font id="counterValue" style="color:white">?</font> 次
+		
 		</font>
       	</div>
     </div>
   </div>
 </footer>
 
-<script type="text/javascript">
-$(function(){
-    $.ajax({
-        type     : "GET",
-        url      : 'http://lbservice.duapp.com/xxx',
-        dataType : "jsonp",
-        jsonp    : "jsonpCallback",
-        success  : function(data) {
-                    $("#counterValue").text(data);
-                   },
-        error    : function() { 
-                    $("#counter").html(""); 
-                   }
-    });
-});
-</script>
+
     </div>
     
   <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
