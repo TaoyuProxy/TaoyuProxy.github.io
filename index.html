@@ -209,80 +209,12 @@
 </blockquote>
 <p>C#  从语言结构上可以大致分为<strong>基本构成语法</strong>和自身语言特性<strong>面向对象</strong>。</p>
 <hr>
-<h2 id="基本构成">基本构成</h2>
-<h3 id="一、语言基础">一、语言基础</h3>
-<h4 id="语句元素">语句元素</h4>
-<h5 id="_1、数据类型"><strong> 1、数据类型</strong></h5>
-<ul>
-<li><strong>一般数据类型:</strong>值类型（整数、字符、实数、Boolean、Struct、Enum）,存在堆栈中。<br> &ensp; &ensp; &ensp; &ensp; &ensp;  &ensp; &ensp; &ensp; &ensp; &ensp; 引用类型（类、接口、数组）。<br> &ensp; &ensp;&ensp; &ensp; &ensp; &ensp;  &ensp; &ensp;&ensp; &ensp;&ensp; 类型转换（数值转换、枚举转换、引用转换、装箱转换、拆箱转换、转换检查）。</li>
-<li><strong>特殊:</strong>委托。 <h5 id="_2、变量与常量"><strong> 2、变量与常量</strong></h5>
-</li>
-<li><strong>常见变量类型：</strong>int、flot、double、、bool、string、char、数组类型、泛型。</li>
-<li><strong>常量类型：</strong> Const、ReadOnly。</li>
-</ul>
-<h5 id="_3、运算符"><strong> 3、运算符</strong></h5>
-<ul>
-<li><strong>算数运算符：</strong>+、-、*、/、%。</li>
-<li><strong>逻辑运算符：</strong>||、&amp;&amp;、！。</li>
-<li><strong>条件预算符：</strong>？：。</li>
-<li><strong>类型转换：</strong> O</li>
-<li><strong>操作数类型：</strong> typeof（string）</li>
-</ul>
-<h5 id="_5、注释"><strong> 5、注释</strong></h5>
-<ul>
-<li><strong>单行注释：</strong>//</li>
-<li><strong>多行注释：</strong>/<strong><strong><strong><strong><strong><strong>*</strong></strong></strong></strong></strong></strong>/</li>
-<li><strong>文件注释：</strong>   &lt; summary&gt;&lt; param&gt;…. &lt; /param&gt;&lt; /summary&gt;</li>
-</ul>
-<h4 id="流控制语句"><strong>流控制语句</strong></h4>
-<ul>
-<li><em>switch （）case：  default：</em></li>
-<li><em>if…else if…else…</em></li>
-<li><em>for</em></li>
-<li><em>while…do…</em>  </li>
-<li><em>do…while…</em>  </li>
-<li><em>foreach</em></li>
-<li><em>goto</em></li>
-<li><em>break</em></li>
-<li><em>continue</em></li>
-</ul>
-<h3 id="二、基本特性">二、基本特性</h3>
-<h4 id="_1、程序集"><strong> 1、程序集</strong></h4>
-<ul>
-<li><strong>命名空间</strong></li>
-<li><strong>异常处理：</strong> try（）catch{} finnally{} ,抛出异常。</li>
-<li><strong>组件</strong></li>
-</ul>
-<h4 id="_2、大小写敏感"><strong> 2、大小写敏感</strong></h4>
-<ul>
-<li><strong>Camel</strong></li>
-<li><strong>pascal</strong></li>
-</ul>
-<h2 id="面向对象">面向对象</h2>
-<h3 id="一、类">一、类</h3>
-<h4 id="_1、性质"><strong> 1、性质</strong></h4>
-<ul>
-<li><strong>可见性</strong></li>
-<li><strong>特性：</strong>重写、覆盖、重载（属性重载、方法重载、函数重载、运算符重载）。</li>
-</ul>
-<h4 id="_2、成员"><strong> 2、成员</strong></h4>
-<ul>
-<li><strong>一般：</strong>属性、方法、函数。</li>
-<li><strong>特殊：</strong>索引器。</li>
-</ul>
-<h4 id="_3、分类"><strong> 3、分类</strong></h4>
-<ul>
-<li><strong>特殊类：</strong>静态类、抽象类、密封类</li>
-<li><strong>常用类：</strong>外部类（Console）、类库（Object基类、字符串类、异常类{参数有关、成员访问、数组异常、算数异常、文件传输输出异常、处理未预料的异常}）。</li>
-</ul>
-<h3 id="二、特性">二、特性</h3>
-<h4 id="1、封装">1、<strong>封装</strong></h4>
-<p> &ensp; &ensp; &ensp; &ensp; 概念：将数据和函数集合在一个个单元中，被封装的对象称之为对象数据模型。<br>   &ensp; &ensp; &ensp; &ensp;  意义：保护和防止代码（数据）被无意的破坏。<br>      &ensp; &ensp; &ensp; &ensp; 方法：（1）访问修饰符（2）属性</p>
-<h4 id="2、继承">2、<strong>继承</strong></h4>
-<p>  &ensp; &ensp; &ensp; &ensp;意义：代码重用，节省开发时间。<br> &ensp; &ensp; &ensp; &ensp;方法（1）new（2）base（3）重写</p>
-<h4 id="3、_多态">3、 <strong>多态</strong></h4>
-<p>&ensp; &ensp;&ensp; &ensp; &ensp;意义：同一操作作用于不同的对象，可以有不同的解释，产生不同的执行结果。在运行时，可以通过指向基类的指针，来调用实现派生类中的方法。<br>&ensp; &ensp; &ensp;&ensp;&ensp;   形态：编译时多态（非虚成员重载）、运行时多态（虚成员）。<br>&ensp; &ensp;&ensp; &ensp; &ensp;实现：接口多态性、继承多态性（override重写父类中virtual修饰的方法）、抽象类实现。</p>
 
+        
+          <p class="article-more-link">
+            <a href="/2015/01/22/技术篇-C/#more">more >></a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
