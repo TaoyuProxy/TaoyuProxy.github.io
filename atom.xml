@@ -4,7 +4,7 @@
   <subtitle><![CDATA[keep calm and carry on]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://geektao.cc/"/>
-  <updated>2015-01-22T08:58:04.220Z</updated>
+  <updated>2015-01-22T09:00:42.951Z</updated>
   <id>http://geektao.cc/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://geektao.cc/2015/01/22/%E6%8A%80%E6%9C%AF%E7%AF%87-C/"/>
     <id>http://geektao.cc/2015/01/22/技术篇-C/</id>
     <published>2015-01-22T08:12:37.000Z</published>
-    <updated>2015-01-22T08:57:54.000Z</updated>
+    <updated>2015-01-22T09:00:21.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p><strong>在将近一年的工作时间里，无论是在忙碌的工作过程中还是在日常的学习过程中都离不开博客园里面各位“大牛”的默默奉献。虽然接触博客园的时间并不长，但如今到公司的第一件事就是习惯性的打开博客园的首页，搜寻适合自己的学习资源和干货。在各种教程的指点下解决了项目中出现的许多难题和技术上的弥补了许多技术上的薄弱环节。通过将博客园中理论知识和实际工作实践相结合让我这一年受益良多。在此将学习和工作过程中总结的一些 运用比较宽泛的知识点总结整理一下供以后参考温习。</strong></p>
 </blockquote>
@@ -113,6 +113,8 @@
     
       <category term="C#" scheme="http://geektao.cc/tags/C/"/>
     
+      <category term="后端" scheme="http://geektao.cc/categories/%E5%90%8E%E7%AB%AF/"/>
+    
   </entry>
   
   <entry>
@@ -120,7 +122,7 @@
     <link href="http://geektao.cc/2015/01/07/%E5%88%9D%E5%AD%A6Hexo/"/>
     <id>http://geektao.cc/2015/01/07/初学Hexo/</id>
     <published>2015-01-07T10:35:51.000Z</published>
-    <updated>2015-01-12T07:58:08.000Z</updated>
+    <updated>2015-01-22T09:00:27.000Z</updated>
     <content type="html"><![CDATA[<h4 id="导语">导语</h4>
 <blockquote>
 <h5 id="&ensp;&ensp;去年年末一个偶然的机会接触到Hexo，刚刚着手学习的时候一头雾水无从下手。由于一种好奇心的驱使和Hexo简洁优雅的页面吸引着我，于是在“简书”里搜索相关的教程，经过一段时间的摸索后终于搭建起属于自己的Hexo博客。但由于学习的时候参考众多其他大牛的博客，没有形成一个完整的知识体系导致知识点比较分散。今天是2015年的第一个工作周，趁这个很有纪念意义的一周将自己学习hexo的经验记录下来和大家一起分享，也便于自己日后的查阅和知识点的巩固。">&ensp;&ensp;去年年末一个偶然的机会接触到Hexo，刚刚着手学习的时候一头雾水无从下手。由于一种好奇心的驱使和Hexo简洁优雅的页面吸引着我，于是在“简书”里搜索相关的教程，经过一段时间的摸索后终于搭建起属于自己的Hexo博客。但由于学习的时候参考众多其他大牛的博客，没有形成一个完整的知识体系导致知识点比较分散。今天是2015年的第一个工作周，趁这个很有纪念意义的一周将自己学习hexo的经验记录下来和大家一起分享，也便于自己日后的查阅和知识点的巩固。</h5>
@@ -207,7 +209,7 @@
     
       <category term="Hexo" scheme="http://geektao.cc/tags/Hexo/"/>
     
-      <category term="学习" scheme="http://geektao.cc/categories/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="博客搭建" scheme="http://geektao.cc/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
