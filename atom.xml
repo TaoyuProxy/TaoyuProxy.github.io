@@ -4,7 +4,7 @@
   <subtitle><![CDATA[keep calm and carry on]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://geektao.cc/"/>
-  <updated>2015-03-09T07:51:19.669Z</updated>
+  <updated>2015-03-09T07:55:21.208Z</updated>
   <id>http://geektao.cc/</id>
   
   <author>
@@ -19,10 +19,12 @@
     <link href="http://geektao.cc/2015/02/14/%E6%8A%80%E6%9C%AF%E7%AF%87-JS/"/>
     <id>http://geektao.cc/2015/02/14/技术篇-JS/</id>
     <published>2015-02-14T01:27:07.000Z</published>
-    <updated>2015-03-09T07:50:36.000Z</updated>
+    <updated>2015-03-09T07:55:11.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>JavaScript 是互联网上最流行的脚本语言，这门语言可用于 HTML 和 web，更可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备。</p>
 </blockquote>
+<a id="more"></a>
+
 <h3 id="javascript_变量">javascript 变量</h3>
 <ul>
 <li><strong>命名</strong></li>
@@ -74,7 +76,8 @@
     <![CDATA[<blockquote>
 <p>JavaScript 是互联网上最流行的脚本语言，这门语言可用于 HTML 和 web，更可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备。</p>
 </blockquote>
-<h3 id="javascript_变量">javasc]]>
+]]>
+    
     </summary>
     
       <category term="JS" scheme="http://geektao.cc/tags/JS/"/>
