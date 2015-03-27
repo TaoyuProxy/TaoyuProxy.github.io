@@ -4,7 +4,7 @@
   <subtitle><![CDATA[keep calm and carry on]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://geektao.cc/"/>
-  <updated>2015-03-27T07:09:06.257Z</updated>
+  <updated>2015-03-27T07:12:58.506Z</updated>
   <id>http://geektao.cc/</id>
   
   <author>
@@ -19,10 +19,8 @@
     <link href="http://geektao.cc/2015/03/27/%E6%B5%85%E5%AD%A6html5/"/>
     <id>http://geektao.cc/2015/03/27/浅学html5/</id>
     <published>2015-03-27T02:11:24.000Z</published>
-    <updated>2015-03-27T07:08:54.000Z</updated>
-    <content type="html"><![CDATA[<a id="more"></a>
-
-<h3 id="Html5新特性">Html5新特性</h3>
+    <updated>2015-03-27T07:12:42.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="Html5新特性">Html5新特性</h3>
 <ul>
 <li><strong>用绘画的canvas类</strong></li>
 <li><strong>用于媒介回放的video和audio元素</strong></li>
@@ -31,6 +29,8 @@
 <li><strong>新的表单控件，如calendar，date，time，email，url，search</strong></li>
 </ul>
 <hr>
+<a id="more"></a>
+
 <h3 id="HTML5表单属性">HTML5表单属性</h3>
 <p><strong>form新属性：</strong></p>
 <p>autocomplete<br>novalidate</p>
@@ -59,12 +59,17 @@
 <p>例子：Facebook/Twitter 更新、估价更新、新的博文、赛事结果等。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<a id="more"></a>
-
-<h3 id="Html5新特性">Html5新特性</h3>
+    <![CDATA[<h3 id="Html5新特性">Html5新特性</h3>
 <ul>
 <li><strong>用绘画的canvas类</strong></li>
-<li><strong>用于媒介回放的video和audio元素</strong></li>]]>
+<li><strong>用于媒介回放的video和audio元素</strong></li>
+<li><strong>对本地离线存储更好的支持</strong></li>
+<li><strong>新的特殊内容元素，比如article,footer,header,nav,section</strong></li>
+<li><strong>新的表单控件，如calendar，date，time，email，url，search</strong></li>
+</ul>
+<hr>
+]]>
+    
     </summary>
     
       <category term="html5" scheme="http://geektao.cc/tags/html5/"/>
